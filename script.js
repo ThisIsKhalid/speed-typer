@@ -118,6 +118,7 @@ const start = () => {
 
       clearInterval(startCountdown);
       startTime = new Date().getTime();
+      
     }
     count--;
   }, 1000);
